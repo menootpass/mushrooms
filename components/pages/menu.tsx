@@ -14,7 +14,7 @@ const ALL_PRODUCTS: Product[] = [
     id: '1',
     name: 'Organic Coffee Beans',
     price: 45000,
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop',
     description: 'Biji kopi organik dari petani lokal',
     category: 'Coffee',
   },
@@ -22,7 +22,7 @@ const ALL_PRODUCTS: Product[] = [
     id: '2',
     name: 'Handmade Honey',
     price: 35000,
-    image: 'https://images.unsplash.com/photo-1587049352917-46ea752939d0?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop',
     description: 'Madu murni dari peternak lebah lokal',
     category: 'Honey',
   },
@@ -30,7 +30,7 @@ const ALL_PRODUCTS: Product[] = [
     id: '3',
     name: 'Artisanal Bread',
     price: 25000,
-    image: 'https://images.unsplash.com/photo-1586985289688-cacf33b6dbb8?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop',
     description: 'Roti segar dipanggang dengan biji-bijian utuh',
     category: 'Bakery',
   },
@@ -133,8 +133,8 @@ export default function Menu({ onViewProduct }: MenuProps) {
                   selectedCategory === category ? 'default' : 'outline'
                 }
                 className={`flex-shrink-0 rounded-xl ${selectedCategory === category
-                    ? 'bg-primary text-white hover:bg-primary/90'
-                    : 'border-primary text-primary hover:bg-primary hover:text-white'
+                  ? 'bg-primary text-white hover:bg-primary/90'
+                  : 'border-primary text-primary hover:bg-primary hover:text-white'
                   }`}
               >
                 {category}

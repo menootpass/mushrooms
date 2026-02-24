@@ -10,9 +10,8 @@ const _playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-serif
 const _lora = Lora({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {
-  title: 'Village Market',
-  description: 'Artisanal products from our community',
-  generator: 'v0.app',
+  title: 'Mushrooms',
+  description: 'Produksi Makanan Berbahan Dasar Jamur',
   icons: {
     icon: [
       {

@@ -18,7 +18,7 @@ export default function Navbar({ cartCount, onCartClick }: NavbarProps) {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <h1 className="text-2xl font-serif font-bold text-primary">
-              Village Market
+              Mushrooms
             </h1>
           </div>
 

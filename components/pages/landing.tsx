@@ -16,7 +16,7 @@ const FEATURED_PRODUCTS: Product[] = [
     id: '1',
     name: 'Organic Coffee Beans',
     price: 45000,
-    image: 'https://images.unsplash.com/photo-1559056199-641a0ac8b3f7?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=300&fit=crop',
     description: 'Biji kopi organik dari petani lokal',
     category: 'Coffee',
   },
@@ -24,7 +24,7 @@ const FEATURED_PRODUCTS: Product[] = [
     id: '2',
     name: 'Handmade Honey',
     price: 35000,
-    image: 'https://images.unsplash.com/photo-1587049352917-46ea752939d0?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400&h=300&fit=crop',
     description: 'Madu murni dari peternak lebah lokal',
     category: 'Honey',
   },
@@ -32,7 +32,7 @@ const FEATURED_PRODUCTS: Product[] = [
     id: '3',
     name: 'Artisanal Bread',
     price: 25000,
-    image: 'https://images.unsplash.com/photo-1586985289688-cacf33b6dbb8?w=400&h=300&fit=crop',
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=400&h=300&fit=crop',
     description: 'Roti segar dipanggang dengan biji-bijian utuh',
     category: 'Bakery',
   },
@@ -111,7 +111,7 @@ export default function Landing({
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-8 border border-white/20">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
-              <span className="text-white/80 text-sm font-medium">Selamat Datang di Village Market</span>
+              <span className="text-white/80 text-sm font-medium">Selamat Datang di Mushrooms</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-serif font-bold text-white mb-6 leading-tight">
@@ -135,7 +135,7 @@ export default function Landing({
               </Button>
               <Button
                 variant="outline"
-                className="px-10 py-7 text-lg font-semibold border-white/30 text-white hover:bg-white/10 rounded-xl backdrop-blur-sm"
+                className="px-10 py-7 text-lg font-semibold border-white/30 text-black hover:bg-white/10 rounded-xl backdrop-blur-sm"
                 onClick={() => {
                   document.getElementById('about-section')?.scrollIntoView({ behavior: 'smooth' })
                 }}
@@ -245,7 +245,7 @@ export default function Landing({
           <div className="text-center mb-16">
             <p className="text-sm font-body text-muted-foreground uppercase tracking-widest mb-3">Tentang Kami</p>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
-              Kisah Village Market
+              Kisah Mushrooms
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mt-4 rounded-full" />
           </div>
@@ -256,7 +256,7 @@ export default function Landing({
                 Berawal dari Sebuah Ide 💡
               </h3>
               <p className="text-muted-foreground font-body mb-4 leading-relaxed">
-                Village Market lahir dari visi sederhana namun kuat: menghubungkan pengrajin lokal berbakat dengan konsumen yang menghargai kualitas dan keaslian. Didirikan pada tahun 2024, kami memulai perjalanan untuk membawa produk-produk terbaik dari desa ke meja Anda.
+                Mushrooms lahir dari visi sederhana namun kuat: menghubungkan pengrajin lokal berbakat dengan konsumen yang menghargai kualitas dan keaslian. Didirikan pada tahun 2024, kami memulai perjalanan untuk membawa produk-produk terbaik dari desa ke meja Anda.
               </p>
               <p className="text-muted-foreground font-body mb-4 leading-relaxed">
                 Ide ini bermula ketika pendiri kami, Ahmad Farhaan, mengunjungi berbagai desa dan melihat betapa banyaknya produk berkualitas tinggi yang tidak mendapatkan akses ke pasar yang lebih luas. Bersama timnya, ia membangun platform ini sebagai jembatan antara tradisi dan teknologi.
@@ -269,7 +269,7 @@ export default function Landing({
               <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white/50">
                 <img
                   src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&h=400&fit=crop"
-                  alt="Tim Village Market"
+                  alt="Tim Mushrooms"
                   className="w-full h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -310,7 +310,7 @@ export default function Landing({
           <div className="text-center mb-16">
             <p className="text-sm font-body text-muted-foreground uppercase tracking-widest mb-3">Tim Kami</p>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">
-              Orang-Orang di Balik Village Market
+              Orang-Orang di Balik Mushrooms
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto mt-4 rounded-full" />
           </div>
@@ -355,7 +355,7 @@ export default function Landing({
             {/* Brand */}
             <div className="md:col-span-1">
               <h2 className="text-2xl font-serif font-bold mb-4 bg-gradient-to-r from-[#d4a574] to-[#f0c27f] bg-clip-text text-transparent">
-                Village Market
+                Mushrooms
               </h2>
               <p className="text-white/60 font-body text-sm leading-relaxed mb-6">
                 Produk artisanal berkualitas dari pengrajin lokal Indonesia. Setiap pembelian mendukung komunitas desa.
@@ -419,7 +419,7 @@ export default function Landing({
           {/* Bottom bar */}
           <div className="border-t border-white/10 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/40 text-sm font-body">
-              © 2024 Village Market. All rights reserved.
+              © 2024 Mushrooms. All rights reserved.
             </p>
             <p className="text-white/40 text-sm font-body">
               Made with ❤️ by Tridaya Team
